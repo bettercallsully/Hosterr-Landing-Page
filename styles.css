@@ -1,0 +1,20 @@
+.maincontent {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+
+  }
+
+  li {
+  display: flex;
+  justify-content: end;
+  }
+
+  li { 
+      display: end;
+      justify-content: space-between;
+  }
