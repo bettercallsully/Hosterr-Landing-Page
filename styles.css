@@ -1,5 +1,6 @@
 .maincontent {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
 }
 
 .navigation {
@@ -10,11 +11,41 @@
   }
 
   li {
-  display: flex;
-  justify-content: end;
+     position: relative; 
+     display: flex;
+     justify-content: end;
   }
 
   li { 
+      position: relative;
       display: end;
       justify-content: space-between;
   }
+
+  .headshot {
+      position: absolute;
+      top: 7cm;
+      left: 65%;
+  }
+
+  .purplesvg {
+      position: absolute;
+      top: 7cm;
+      left: 65%;
+      transform: rotate(-15deg)
+  }
+
+  .pinksvg {
+      position: absolute;
+      top: 7cm;
+      left: 65%;
+      transform: rotate(-30deg);
+  }
+
+  .bluesvg {
+      position: absolute;
+      top: 7cm;
+      left: 65%;
+      transform: rotate(-45deg);
+  }
+
